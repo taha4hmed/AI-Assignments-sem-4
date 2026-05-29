@@ -1,0 +1,4 @@
+pgmpy
+pyAgrum
+networkx
+matplotlib
