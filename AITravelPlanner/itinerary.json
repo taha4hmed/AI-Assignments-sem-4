@@ -1,0 +1,184 @@
+{
+  "trip_title": "2-Day Tuscany Wine & Culture Escape",
+  "destination": "Tuscany, Italy",
+  "duration_days": 2,
+  "travel_dates": {
+    "day_1": "2026-06-05",
+    "day_2": "2026-06-06"
+  },
+  "accommodation": {
+    "name": "Villa dei Baronci",
+    "type": "Agriturismo",
+    "star_rating": 4,
+    "price_per_night_eur": 180.0,
+    "description": "Boutique agriturismo with vineyard views in Chianti",
+    "nearby_location": "Chianti"
+  },
+  "featured_wine": {
+    "name": "Sangiovese",
+    "type": "Red",
+    "tasting_notes": "Cherry, plum, leather, earthy undertones",
+    "food_pairings": [
+      "Pappardelle al Cinghiale",
+      "Bistecca alla Fiorentina"
+    ]
+  },
+  "all_hotels": [
+    {
+      "name": "Villa dei Baronci",
+      "type": "Agriturismo",
+      "star_rating": 4,
+      "price_per_night_eur": 180.0,
+      "description": "Boutique agriturismo with vineyard views in Chianti",
+      "nearby_location": "Chianti"
+    }
+  ],
+  "all_wines": [
+    {
+      "name": "Sangiovese",
+      "type": "Red",
+      "tasting_notes": "Cherry, plum, leather, earthy undertones",
+      "food_pairings": [
+        "Pappardelle al Cinghiale",
+        "Bistecca alla Fiorentina"
+      ]
+    },
+    {
+      "name": "Chianti Classico",
+      "type": "Red",
+      "tasting_notes": "Red cherry, tobacco, spice, firm tannins",
+      "food_pairings": [
+        "Bistecca alla Fiorentina"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-06-05",
+      "theme": "Arrival & Chianti Immersion",
+      "activities": [
+        {
+          "time": "14:00",
+          "title": "Check in to Villa dei Baronci",
+          "description": "Boutique agriturismo with vineyard views in Chianti",
+          "location": "Chianti",
+          "type": "Accommodation"
+        },
+        {
+          "time": "16:00",
+          "title": "Chianti Vineyard Wine Tasting",
+          "description": "Guided tasting of Sangiovese and Chianti Classico wines in the estate's organic vineyard cellars.",
+          "location": "Chianti",
+          "type": "Wine Tasting",
+          "featured_wine": "Sangiovese"
+        },
+        {
+          "time": "20:00",
+          "title": "Dinner at Osteria della Villa",
+          "description": "Enjoy Pappardelle al Cinghiale paired with estate Sangiovese, followed by Bistecca alla Fiorentina.",
+          "location": "Villa dei Baronci",
+          "type": "Dining",
+          "wine_pairing": "Sangiovese"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-06-06",
+      "theme": "Florence Art & Culinary Discovery",
+      "activities": [
+        {
+          "time": "09:00",
+          "title": "Breakfast at the Villa",
+          "description": "Fresh Tuscan breakfast with local cheeses, cured meats, and pastries.",
+          "location": "Villa dei Baronci",
+          "type": "Dining"
+        },
+        {
+          "time": "10:30",
+          "title": "Uffizi Gallery Tour",
+          "description": "Explore Renaissance masterpieces by Botticelli, Michelangelo, and Leonardo da Vinci. Pre-booking essential.",
+          "location": "Florence",
+          "type": "Museum",
+          "price_eur": 25.0,
+          "duration_hours": 3.0,
+          "booking_required": true
+        },
+        {
+          "time": "14:00",
+          "title": "Lunch in Florence — Bistecca alla Fiorentina",
+          "description": "Classic Florentine lunch: thick-cut T-bone steak with Chianti Classico.",
+          "location": "Florence",
+          "type": "Dining",
+          "wine_pairing": "Chianti Classico"
+        },
+        {
+          "time": "17:00",
+          "title": "Drive to Montalcino (optional extension)",
+          "description": "Optional: Head south to Montalcino for an evening tasting of Brunello di Montalcino at Enoteca Poliziana.",
+          "location": "Montalcino",
+          "type": "Wine Tasting",
+          "featured_wine": "Brunello di Montalcino"
+        },
+        {
+          "time": "20:00",
+          "title": "Farewell Dinner",
+          "description": "Final dinner under the Tuscan stars at your agriturismo.",
+          "location": "Villa dei Baronci",
+          "type": "Dining"
+        }
+      ]
+    }
+  ],
+  "ai_synthesis": "Graph-based recommendation generated via direct Cypher query.",
+  "graph_query_results": [
+    {
+      "hotel_name": "Villa dei Baronci",
+      "hotel_type": "Agriturismo",
+      "hotel_stars": 4,
+      "price_per_night": 180.0,
+      "hotel_description": "Boutique agriturismo with vineyard views in Chianti",
+      "nearby_location": "Chianti",
+      "wine_name": "Sangiovese",
+      "wine_type": "Red",
+      "wine_notes": "Cherry, plum, leather, earthy undertones",
+      "hotel_cuisines": [
+        "Pappardelle al Cinghiale"
+      ],
+      "wine_pairings": [
+        "Pappardelle al Cinghiale",
+        "Bistecca alla Fiorentina"
+      ],
+      "nearby_activities": [
+        "Chianti Vineyard Wine Tasting"
+      ]
+    },
+    {
+      "hotel_name": "Villa dei Baronci",
+      "hotel_type": "Agriturismo",
+      "hotel_stars": 4,
+      "price_per_night": 180.0,
+      "hotel_description": "Boutique agriturismo with vineyard views in Chianti",
+      "nearby_location": "Chianti",
+      "wine_name": "Chianti Classico",
+      "wine_type": "Red",
+      "wine_notes": "Red cherry, tobacco, spice, firm tannins",
+      "hotel_cuisines": [
+        "Pappardelle al Cinghiale"
+      ],
+      "wine_pairings": [
+        "Bistecca alla Fiorentina"
+      ],
+      "nearby_activities": [
+        "Chianti Vineyard Wine Tasting"
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_by": "GraphRAG AI Travel Planner v1.0",
+    "graph_database": "Neo4j 5+",
+    "ai_model": "gpt-4o",
+    "query": "I want a 2-day trip to Tuscany. Find me a hotel near a place that serves Sangiovese wine."
+  }
+}

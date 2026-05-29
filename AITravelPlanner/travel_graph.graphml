@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d24" for="edge" attr.name="distance_km" attr.type="string"/>
+<key id="d23" for="edge" attr.name="neo4j_rel_id" attr.type="string"/>
+<key id="d22" for="edge" attr.name="relationship_type" attr.type="string"/>
+<key id="d21" for="edge" attr.name="label" attr.type="string"/>
+<key id="d20" for="node" attr.name="duration_hours" attr.type="string"/>
+<key id="d19" for="node" attr.name="price_eur" attr.type="string"/>
+<key id="d18" for="node" attr.name="booking_required" attr.type="string"/>
+<key id="d17" for="node" attr.name="is_vegetarian" attr.type="string"/>
+<key id="d16" for="node" attr.name="category" attr.type="string"/>
+<key id="d15" for="node" attr.name="grape_variety" attr.type="string"/>
+<key id="d14" for="node" attr.name="tasting_notes" attr.type="string"/>
+<key id="d13" for="node" attr.name="region_of_origin" attr.type="string"/>
+<key id="d12" for="node" attr.name="star_rating" attr.type="string"/>
+<key id="d11" for="node" attr.name="type" attr.type="string"/>
+<key id="d10" for="node" attr.name="price_per_night_eur" attr.type="string"/>
+<key id="d9" for="node" attr.name="region" attr.type="string"/>
+<key id="d8" for="node" attr.name="country" attr.type="string"/>
+<key id="d7" for="node" attr.name="description" attr.type="string"/>
+<key id="d6" for="node" attr.name="id" attr.type="string"/>
+<key id="d5" for="node" attr.name="all_labels" attr.type="string"/>
+<key id="d4" for="node" attr.name="neo4j_id" attr.type="string"/>
+<key id="d3" for="node" attr.name="name" attr.type="string"/>
+<key id="d2" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="graph" attr.name="description" attr.type="string"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">GraphRAG AI Travel Planner Knowledge Graph</data>
+<data key="d1">Knowledge graph of Tuscany travel entities: Locations, Accommodations, Activities, Wines, and Cuisines with their semantic relationships.</data>
+<node id="0">
+  <data key="d2">Location</data>
+  <data key="d3">Tuscany</data>
+  <data key="d4">0</data>
+  <data key="d5">Location</data>
+  <data key="d6">tuscany</data>
+  <data key="d7">Central Italian region famous for wine, art, and landscapes</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="1">
+  <data key="d2">Location</data>
+  <data key="d3">Florence</data>
+  <data key="d4">1</data>
+  <data key="d5">Location</data>
+  <data key="d6">florence</data>
+  <data key="d9">Tuscany</data>
+  <data key="d7">Renaissance capital of Tuscany</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="2">
+  <data key="d2">Location</data>
+  <data key="d3">Siena</data>
+  <data key="d4">2</data>
+  <data key="d5">Location</data>
+  <data key="d6">siena</data>
+  <data key="d9">Tuscany</data>
+  <data key="d7">Medieval hilltop city, home of the Palio</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="3">
+  <data key="d2">Location</data>
+  <data key="d3">Chianti</data>
+  <data key="d4">3</data>
+  <data key="d5">Location</data>
+  <data key="d6">chianti</data>
+  <data key="d9">Tuscany</data>
+  <data key="d7">Wine-growing zone between Florence and Siena</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="4">
+  <data key="d2">Location</data>
+  <data key="d3">Montepulciano</data>
+  <data key="d4">4</data>
+  <data key="d5">Location</data>
+  <data key="d6">montepulciano</data>
+  <data key="d9">Tuscany</data>
+  <data key="d7">Hilltop town famous for Vino Nobile</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="5">
+  <data key="d2">Location</data>
+  <data key="d3">Montalcino</data>
+  <data key="d4">5</data>
+  <data key="d5">Location</data>
+  <data key="d6">montalcino</data>
+  <data key="d9">Tuscany</data>
+  <data key="d7">Birthplace of Brunello di Montalcino</data>
+  <data key="d8">Italy</data>
+</node>
+<node id="6">
+  <data key="d2">Accommodation</data>
+  <data key="d3">Villa dei Baronci</data>
+  <data key="d4">6</data>
+  <data key="d5">Accommodation</data>
+  <data key="d6">villa_dei_baronci</data>
+  <data key="d7">Boutique agriturismo with vineyard views in Chianti</data>
+  <data key="d10">180.0</data>
+  <data key="d11">Agriturismo</data>
+  <data key="d12">4</data>
+</node>
+<node id="7">
+  <data key="d2">Accommodation</data>
+  <data key="d3">Hotel Il Giglio</data>
+  <data key="d4">7</data>
+  <data key="d5">Accommodation</data>
+  <data key="d6">hotel_il_giglio</data>
+  <data key="d7">Comfortable hotel in Montalcino with vineyard views</data>
+  <data key="d10">120.0</data>
+  <data key="d11">Hotel</data>
+  <data key="d12">3</data>
+</node>
+<node id="8">
+  <data key="d2">Wine</data>
+  <data key="d3">Sangiovese</data>
+  <data key="d4">8</data>
+  <data key="d5">Wine</data>
+  <data key="d6">sangiovese</data>
+  <data key="d13">Tuscany</data>
+  <data key="d14">Cherry, plum, leather, earthy undertones</data>
+  <data key="d11">Red</data>
+  <data key="d15">Sangiovese</data>
+</node>
+<node id="9">
+  <data key="d2">Wine</data>
+  <data key="d3">Chianti Classico</data>
+  <data key="d4">9</data>
+  <data key="d5">Wine</data>
+  <data key="d6">chianti_classico</data>
+  <data key="d13">Chianti Classico DOCG</data>
+  <data key="d14">Red cherry, tobacco, spice, firm tannins</data>
+  <data key="d11">Red</data>
+  <data key="d15">Sangiovese Grosso</data>
+</node>
+<node id="10">
+  <data key="d2">Wine</data>
+  <data key="d3">Brunello di Montalcino</data>
+  <data key="d4">10</data>
+  <data key="d5">Wine</data>
+  <data key="d6">brunello_di_montalcino</data>
+  <data key="d13">Montalcino DOCG</data>
+  <data key="d14">Complex dark fruit, leather, tobacco, exceptional ageing potential</data>
+  <data key="d11">Red</data>
+  <data key="d15">Sangiovese Grosso</data>
+</node>
+<node id="11">
+  <data key="d2">Cuisine</data>
+  <data key="d3">Bistecca alla Fiorentina</data>
+  <data key="d4">11</data>
+  <data key="d5">Cuisine</data>
+  <data key="d6">bistecca_fiorentina</data>
+  <data key="d16">Tuscan</data>
+  <data key="d17">false</data>
+  <data key="d7">Classic thick-cut T-bone steak grilled over charcoal</data>
+</node>
+<node id="12">
+  <data key="d2">Cuisine</data>
+  <data key="d3">Pappardelle al Cinghiale</data>
+  <data key="d4">12</data>
+  <data key="d5">Cuisine</data>
+  <data key="d6">pappardelle_cinghiale</data>
+  <data key="d16">Tuscan</data>
+  <data key="d17">false</data>
+  <data key="d7">Wide pasta ribbons with wild boar ragù</data>
+</node>
+<node id="13">
+  <data key="d2">Cuisine</data>
+  <data key="d3">Pici con Tartufo</data>
+  <data key="d4">13</data>
+  <data key="d5">Cuisine</data>
+  <data key="d6">pici_tartufo</data>
+  <data key="d16">Tuscan</data>
+  <data key="d17">true</data>
+  <data key="d7">Hand-rolled thick spaghetti with truffle sauce</data>
+</node>
+<node id="14">
+  <data key="d2">Activity</data>
+  <data key="d3">Chianti Vineyard Wine Tasting</data>
+  <data key="d4">14</data>
+  <data key="d5">Activity</data>
+  <data key="d6">chianti_wine_tasting</data>
+  <data key="d16">Wine Tasting</data>
+  <data key="d7">Guided wine tasting through organic Chianti vineyards and cellars</data>
+  <data key="d18">false</data>
+  <data key="d19">45.0</data>
+  <data key="d20">2.5</data>
+</node>
+<edge source="1" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">0</data>
+</edge>
+<edge source="1" target="11">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">19</data>
+</edge>
+<edge source="2" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">1</data>
+</edge>
+<edge source="3" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">2</data>
+</edge>
+<edge source="3" target="9">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">23</data>
+</edge>
+<edge source="3" target="8">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">24</data>
+</edge>
+<edge source="4" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">3</data>
+</edge>
+<edge source="5" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">4</data>
+</edge>
+<edge source="6" target="3">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">5</data>
+</edge>
+<edge source="6" target="14">
+  <data key="d21">IS_NEAR</data>
+  <data key="d22">IS_NEAR</data>
+  <data key="d23">8</data>
+  <data key="d24">2.0</data>
+</edge>
+<edge source="6" target="1">
+  <data key="d21">IS_NEAR</data>
+  <data key="d22">IS_NEAR</data>
+  <data key="d23">9</data>
+  <data key="d24">17.0</data>
+</edge>
+<edge source="6" target="12">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">20</data>
+</edge>
+<edge source="6" target="8">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">21</data>
+</edge>
+<edge source="7" target="5">
+  <data key="d21">IS_NEAR</data>
+  <data key="d22">IS_NEAR</data>
+  <data key="d23">10</data>
+  <data key="d24">1.0</data>
+</edge>
+<edge source="7" target="10">
+  <data key="d21">SERVES</data>
+  <data key="d22">SERVES</data>
+  <data key="d23">22</data>
+</edge>
+<edge source="8" target="0">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">13</data>
+</edge>
+<edge source="8" target="11">
+  <data key="d21">PAIRS_WITH</data>
+  <data key="d22">PAIRS_WITH</data>
+  <data key="d23">15</data>
+</edge>
+<edge source="8" target="12">
+  <data key="d21">PAIRS_WITH</data>
+  <data key="d22">PAIRS_WITH</data>
+  <data key="d23">17</data>
+</edge>
+<edge source="9" target="3">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">12</data>
+</edge>
+<edge source="9" target="11">
+  <data key="d21">PAIRS_WITH</data>
+  <data key="d22">PAIRS_WITH</data>
+  <data key="d23">16</data>
+</edge>
+<edge source="10" target="5">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">14</data>
+</edge>
+<edge source="10" target="11">
+  <data key="d21">PAIRS_WITH</data>
+  <data key="d22">PAIRS_WITH</data>
+  <data key="d23">18</data>
+</edge>
+<edge source="14" target="3">
+  <data key="d21">LOCATED_IN</data>
+  <data key="d22">LOCATED_IN</data>
+  <data key="d23">11</data>
+</edge>
+</graph></graphml>
